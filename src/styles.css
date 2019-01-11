@@ -110,3 +110,21 @@ div a:hover {
   background-color: gray;
   text-decoration: none;
 }
+button {
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  margin-top: 2vh;
+  background-color: whitesmoke;
+}
+@keyframes blink {
+  from {
+    background-color: whitesmoke;
+    transform: rotate(0);
+  }
+  to {
+    background-color: turquoise;
+    transform: rotate(15deg;);
+  }
+}
