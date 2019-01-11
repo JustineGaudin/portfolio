@@ -10,9 +10,8 @@ let button = document.querySelector("button");
 
 let nbLike = 0;
 
-button.addEventListener("click", () => {
-  button.style.animation = "blink 0.5s linear 2 alternate";
-
+button.addEventListener("click", () => 
+{ button.style.animation = "blink 0.5s linear 2 alternate";
   nbLike++;
   if (nbLike > 1) {
     button.innerHTML = nbLike + " likes";
